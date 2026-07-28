@@ -13,7 +13,18 @@ git submodule add https://github.com/lucas-azdias/azdias-config.git packages/con
 ```
 
 ### Enabling ESLint
-Inside each project, insert the following minimal ESLint config file:
+Inside each project, insert the package in your `package.json` and then the following minimal ESLint config file:
+
+```json
+{
+    ...,
+    "devDependencies": {
+        "@azdias/config": "workspace:*",
+        ...
+    },
+    ...
+}
+```
 
 ```ts
 // eslint.config.ts
