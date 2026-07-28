@@ -12,6 +12,13 @@ Inside your monorepo's root:
 git submodule add https://github.com/lucas-azdias/azdias-config.git packages/config
 ```
 
+### Installing TypeScript configurations
+Execute the following script and give the project folder based on your root:
+
+```sh
+pnpm install-typescript <path>
+```
+
 ### Enabling ESLint
 Inside each project, insert the package in your `package.json` and then the following minimal ESLint config file:
 
@@ -36,12 +43,8 @@ export default [
 ] as Linter.Config[];
 ```
 
-### Installing TypeScript configurations
-Execute the following script and give the project folder based on your root:
-
-```sh
-pnpm install-typescript <path>
-```
+> [!NOTE]
+> If you haven't used the TypeScript install method from before, you will also need to configure your TypeScript configuration files to support the package.
 
 ---
 
