@@ -1,6 +1,5 @@
 # Node.js & Build Artifacts
 **/dist/
-**/.husky/_
 **/.turbo/
 *.tsbuildinfo
 
