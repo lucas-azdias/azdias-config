@@ -76,6 +76,14 @@ export const config = [
         files: [filePatterns.markdown],
 
         language: "markdown/gfm", // GitHub-flavored markdown
+
+        rules: {
+            ...cfg.rules,
+
+            "markdown/no-missing-label-refs": ["error", {
+                allowLabels: ["!NOTE", "!TIP", "!IMPORTANT", "!WARNING", "!CAUTION"],
+            }],
+        },
     })),
 
     // Markdown files linting
