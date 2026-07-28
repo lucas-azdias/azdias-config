@@ -12,6 +12,19 @@ Inside your monorepo's root:
 git submodule add https://github.com/lucas-azdias/azdias-config.git packages/config
 ```
 
+### Enabling ESLint
+Inside each project, insert the following minimal ESLint config file:
+
+```ts
+// eslint.config.ts
+import { eslintConfig } from "@azdias/config";
+import { Linter } from "eslint";
+
+export default [
+    ...eslintConfig,
+] as Linter.Config[];
+```
+
 ---
 
 > [!NOTE]
