@@ -14,8 +14,8 @@
         "dist"
     ],
     "scripts": {
-        "postinstall": "pnpm install-prettier",
-        "build": "tsc -b && pnpm install-prettier",
+        "prepare": "pnpm install-prettier",
+        "build": "tsc -b",
         "lint": "tsc && eslint",
         "install-prettier": "node scripts/install-prettier.ts"
     },
