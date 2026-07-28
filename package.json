@@ -15,6 +15,7 @@
     ],
     "scripts": {
         "prepare": "pnpm install-prettier",
+        "install": "pnpm build",
         "build": "tsc -b",
         "lint": "tsc && eslint",
         "install-prettier": "node scripts/install-prettier.ts"
