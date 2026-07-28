@@ -1,0 +1,20 @@
+{
+    "extends": "../../tsconfig.base.json",
+
+    "compilerOptions": {
+        "lib": ["ES2024"],
+        "types": ["node"],
+        "module": "NodeNext",
+
+        /* Resolution mode */
+        "moduleResolution": "nodenext",
+        "rewriteRelativeImportExtensions": true,
+        "noEmit": false,
+        "outDir": "./dist",
+
+        /* Linting */
+        "rootDir": "./src",
+    },
+
+    "include": ["src"],
+}

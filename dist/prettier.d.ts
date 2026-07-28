@@ -1,0 +1,35 @@
+export declare const config: {
+    [x: string]: unknown;
+    semi?: boolean | undefined;
+    singleQuote?: boolean | undefined;
+    jsxSingleQuote?: boolean | undefined;
+    trailingComma?: "none" | "es5" | "all" | undefined;
+    bracketSpacing?: boolean | undefined;
+    objectWrap?: "preserve" | "collapse" | undefined;
+    bracketSameLine?: boolean | undefined;
+    rangeStart?: number | undefined;
+    rangeEnd?: number | undefined;
+    parser?: import("prettier").LiteralUnion<import("prettier").BuiltInParserName, string> | undefined;
+    filepath?: string | undefined;
+    requirePragma?: boolean | undefined;
+    insertPragma?: boolean | undefined;
+    checkIgnorePragma?: boolean | undefined;
+    proseWrap?: "always" | "never" | "preserve" | undefined;
+    arrowParens?: "always" | "avoid" | undefined;
+    plugins?: (string | URL | import("prettier").Plugin<any>)[] | undefined;
+    htmlWhitespaceSensitivity?: "css" | "strict" | "ignore" | undefined;
+    endOfLine?: "auto" | "lf" | "crlf" | "cr" | undefined;
+    quoteProps?: "as-needed" | "preserve" | "consistent" | undefined;
+    vueIndentScriptAndStyle?: boolean | undefined;
+    embeddedLanguageFormatting?: "off" | "auto" | undefined;
+    singleAttributePerLine?: boolean | undefined;
+    experimentalOperatorPosition?: "start" | "end" | undefined;
+    experimentalTernaries?: boolean | undefined;
+    jsxBracketSameLine?: boolean | undefined;
+    printWidth?: number | undefined;
+    tabWidth?: number | undefined;
+    useTabs?: boolean | undefined;
+    parentParser?: string | undefined | undefined;
+    __embeddedInHtml?: boolean | undefined | undefined;
+};
+//# sourceMappingURL=prettier.d.ts.map

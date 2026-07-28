@@ -1,0 +1,8 @@
+# Root files
+.*ignore
+.nvmrc
+pnpm-lock.yaml
+
+# Configuration files
+**/*.env.template
+**/.gitkeep
