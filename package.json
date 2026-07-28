@@ -6,8 +6,7 @@
         "email": "lucas@azdias.com.br",
         "url": "https://azdias.com.br"
     },
-    "license": "No license",
-    "private": true,
+    "license": "MIT",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "type": "module",
