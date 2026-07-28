@@ -1,5 +1,6 @@
 # Root files
 .*ignore
+.gitmodules
 .nvmrc
 pnpm-lock.yaml
 
