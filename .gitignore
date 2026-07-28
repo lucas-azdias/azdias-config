@@ -1,0 +1,11 @@
+# Node.js & Build Artifacts
+**/dist/
+**/.husky/_
+**/.turbo/
+*.tsbuildinfo
+
+# Tooling Files
+TODO*
+
+# OS Files
+.DS_Store
