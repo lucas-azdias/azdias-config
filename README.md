@@ -25,6 +25,13 @@ export default [
 ] as Linter.Config[];
 ```
 
+### Installing TypeScript configurations
+Execute the following script and give the project folder based on your root:
+
+```sh
+pnpm install-typescript <path>
+```
+
 ---
 
 > [!NOTE]

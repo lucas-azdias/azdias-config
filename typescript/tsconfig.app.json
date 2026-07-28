@@ -1,0 +1,19 @@
+{
+    "extends": "$/tsconfig.base.json",
+
+    "display": "Application TypeScript",
+
+    "compilerOptions": {
+        "lib": ["ES2024", "DOM", "DOM.Iterable"],
+        "types": ["node"],
+
+        /* Linting */
+        "rootDirs": ["."],
+        "paths": {
+            "@/*": ["./src/*"],
+            "!/*": ["./*"],
+        },
+    },
+
+    "include": ["src"],
+}

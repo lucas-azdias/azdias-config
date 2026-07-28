@@ -1,0 +1,23 @@
+{
+    "extends": "$/tsconfig.base.json",
+
+    "display": "Node TypeScript",
+
+    "compilerOptions": {
+        "lib": ["ES2024"],
+        "types": ["node"],
+
+        /* Linting */
+        "paths": {
+            "@azdias/config/*": ["$/packages/config/src/*"],
+        },
+    },
+
+    "references": [
+        {
+            "path": "$/packages/config",
+        },
+    ],
+
+    "include": ["*.config.ts"],
+}

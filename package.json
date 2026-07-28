@@ -18,7 +18,8 @@
         "install": "pnpm build",
         "build": "tsc -b",
         "lint": "tsc && eslint",
-        "install-prettier": "node scripts/install-prettier.ts"
+        "install-prettier": "node scripts/install-prettier.ts",
+        "install-typescript": "node scripts/install-typescript.ts"
     },
     "peerDependencies": {
         "eslint": "catalog:",
